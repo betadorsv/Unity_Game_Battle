@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3260232669412143970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3260232669412143972}
+  - component: {fileID: 3260232669412143973}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3260232669412143972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3260232669412143970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 57.06524, y: 1.9799111, z: -110.8125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3260232669412143973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3260232669412143970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0786e8df0bbb1647b554e16b0f11d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Theme
+    clip: {fileID: 8300000, guid: 47c8e182ab58cf7489b3bf6cf9e80457, type: 3}
+    volume: 0.729
+    pitch: 1
+    source: {fileID: 0}
+  - name: Shotgun
+    clip: {fileID: 8300000, guid: b744660296209d546b974b55fea93e5b, type: 3}
+    volume: 0.601
+    pitch: 1.35
+    source: {fileID: 0}
+  - name: DingCoin
+    clip: {fileID: 8300000, guid: 20ace23ab2354f84c8698933c74d8d78, type: 3}
+    volume: 0.954
+    pitch: 1
+    source: {fileID: 0}
+  - name: Death
+    clip: {fileID: 8300000, guid: 0eee78886a73341478c8c6ff8c34939e, type: 3}
+    volume: 0.954
+    pitch: 1
+    source: {fileID: 0}
+  - name: Die
+    clip: {fileID: 8300000, guid: aaa42fe871e7de944b2ba2d9f8376ce4, type: 3}
+    volume: 0.954
+    pitch: 1
+    source: {fileID: 0}
+  - name: Pause
+    clip: {fileID: 8300000, guid: 763b73ed42f678d48878143f6c5ab73c, type: 3}
+    volume: 0.788
+    pitch: 1
+    source: {fileID: 0}
